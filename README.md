@@ -1,5 +1,9 @@
 # AngularHttpresourceDemo
 
+This is the source code for my blog post about Angular's ``httpResource`` that you can find here.(https://bneuhausz.dev/blog/angular-httpresource)
+
+You can find the Express API used for the demonstration in the server folder.
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.3.
 
 ## Development server
