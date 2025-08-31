@@ -1,16 +1,14 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { RouterOutlet, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, RouterLink],
   template: `
-    <h1>Welcome to {{ title() }}!</h1>
+    <a routerLink="/todos">Todos</a>
 
     <router-outlet />
   `,
   styles: [],
 })
-export class App {
-  protected readonly title = signal('angular-httpresource-demo');
-}
+export class App { }
